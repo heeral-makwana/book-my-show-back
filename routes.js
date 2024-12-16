@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const Ticket = require("../schema"); // Import the Ticket schema
+const Ticket = require("./schema"); // Import the Ticket schema
 const cors = require("cors");
 const app = express();
 
